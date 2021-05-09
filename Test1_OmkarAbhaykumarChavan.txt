@@ -1,0 +1,139 @@
+class Q1
+{
+public static void main(String args[])
+{
+int a=Integer.parseInt(args[0]);
+int b=Integer.parseInt(args[1]);
+System.out.println("Addition of two numbers is= "+(a+b));
+}
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+class Q2
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the no= ");
+int no=sc.nextInt();
+System.out.println("Table of "+no);
+for(int i=1;i<=10;i++)
+{
+System.out.println(no*i);
+}
+}
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+class Q3
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter two numbers= ");
+int no1=sc.nextInt();
+int no2=sc.nextInt();
+int no3=0;
+System.out.println(("Numbers Before Swapping= ")+(+no1+" "+no2));
+no1=no1+no2;
+no2=no1-no2;
+no1=no1-no2;
+System.out.println(("Numbers After Swapping= ")+(+no1+" "+no2));
+}
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+class Q4
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the number to check= ");
+int no=sc.nextInt();
+if(no%2==0)
+System.out.println(no+" is Even number");
+else
+System.out.println(no+" is Odd number");
+}
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import java.util.Scanner;
+class Q5
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the Array to check= ");
+int arr[]=new int[4];
+for(int i=0;i<4;i++)
+{
+arr[i]=sc.nextInt();
+}
+System.out.println("Array in reverse format=");
+for(int i=arr.length-1;i>=0;i--)
+{
+System.out.println(arr[i]);
+}
+
+}
+}
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+import java.util.Scanner;
+class Q6
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the Array to check= ");
+int arr[]=new int[4];
+int max=arr[0];
+for(int i=0;i<4;i++)
+{
+arr[i]=sc.nextInt();
+}
+for(int i=0;i<=arr.length-1;i++)
+{
+if(max<arr[i])
+max=arr[i];
+}
+System.out.println("Maximum number is :"+max);
+}
+}
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+import java.util.Scanner;
+class Q7
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the variable= ");
+char no=sc.next().charAt(0);
+System.out.println("the number in double= "+(double)no);
+System.out.println("the number in float= "+(float)no);
+System.out.println("the number in long= "+(long)no);
+System.out.println("the number in int= "+(int)no);
+System.out.println("the number in short= "+(short)no);
+System.out.println("the number in byte= "+(byte)no);
+System.out.println("the number in Char= "+(char)no);
+}
+}
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
